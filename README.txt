@@ -59,4 +59,8 @@ SNo   Program                                Plugins               Dependencies 
                                                                    method-spot-overall.csv
 ======================================================================================================================================== 
 NOTE : For individual run of the code first run the codes that generates the dependencies used. Then run the particular code.
+
+Report folder contain the complete latex file and report pdf
+
+========================================================================================================================================
                                                                  
