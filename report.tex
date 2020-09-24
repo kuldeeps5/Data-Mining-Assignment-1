@@ -14,7 +14,7 @@
 \makeatletter
     \begin{titlepage}
         \begin{center}
-            \includegraphics[width=0.7\linewidth]{redlogo}\\[4ex]
+            \includegraphics[width=0.7\linewidth]{images/redlogo.jpg}\\[4ex]
             {\huge \bfseries  \@title }\\[2ex] 
             {\LARGE  \@author}\\[50ex] 
             {\large \@date}
@@ -45,28 +45,28 @@ Each district is associated with a unique ID starting from 101. X-axis in each g
 The Y-axis values in each graph is calculated in the time span of 15th March to 5th September.
 
 \subsection{Overall Cases GRAPH}
-\includegraphics[scale=0.32]{OverallCases}
+\includegraphics[scale=0.32]{images/OverallCases.png}
 \centerline{\textbf{Figure 1}} \newline\newline
 \justify \textbf{Figure 1} aim to show the impact of COVID-19 cases in India with respect to every district. The X-axis shows the district ID which is associated with the district name. The Y-axis shows the total number of cases. 
 \newline \textbf{Banglore urban, Pune, Mumbai, Chennai, Thane} shows the very high impact of COVID-19. On an average it is above 1.5 Lakh which is very huge for district. 
     
 \newpage
 \subsection{Neighbor Mean GRAPH}
-\includegraphics[scale=0.335]{Neighbor Mean}
+\includegraphics[scale=0.335]{images/Neighbor Mean.png}
 \centerline{\textbf{Figure 2}} \newline\newline
 \justify \textbf{Figure 2} aim to show the impact of COVID-19 on a particular district with respect to its neighborhood district COVID-19 cases. The Y-axis shows the average(mean) value of the number of cases in neighbourhood districts. The X-axis shows which district we are considering when we are taking average of number of cases in neighbourhood districts. 
 \newline \textbf{Raigad, Thane, Ahmednagar, Krishna, West Godawari} are the top 5 districts which are badly affected by its neighbour district.
 
 \newpage    
 \subsection{State Mean GRAPH}
-\includegraphics[scale=0.32]{State Mean}
+\includegraphics[scale=0.32]{images/State Mean.png}
 \centerline{\textbf{Figure 3}} \newline\newline
 \justify \textbf{Figure 3} aim to show the impact of COVID-19 on a particular district with respect to the state in which this district lies. The Y-axis shows the average(mean) of the number of cases in the particular state(excluding the district which we are considering) in which a district lies. The X-axis shows for which district we are taking the state mean.
 \newline There are many district which shows larger values for state mean, so of these are \textbf{Krishna, Ahmednagar, Srikakulam, Vizianagram} and so on.
 
 \newpage 
 \subsection{Neighborhood Z-Score GRAPH}
-\includegraphics[scale=0.346]{Neighbor Z Score}
+\includegraphics[scale=0.346]{images/Neighbor Z Score.png}
 \centerline{\textbf{Figure 4}} \newline\newline
 \newline \textbf{ZSCORE = (X - MEAN)/(STANDARD DEVIATION)}, here X represent number of cases in the particular district.
 \newline \justify The Y-axis in \textbf{Figure 4} shows the value of Z Score of the neighborhood districts with respect to particular district in X-axis. The value of the Z Score tells you how many standard deviations you are away from the mean. \textbf{Positive Z Score} value of the neighbor districts of the particular district shows that the number of cases in this particular district which we are considering is greater than on average cases of the neighborhood districts. \textbf{Negative Z Score} value of the neighbor districts of the particular district shows that the number of cases in this particular district which we are considering is less than on average cases of the neighborhood districts. 
@@ -74,7 +74,7 @@ The Y-axis values in each graph is calculated in the time span of 15th March to 
 
 \newpage 
 \subsection{State Z-Score GRAPH}
-\includegraphics[scale=0.33]{State Z Score}
+\includegraphics[scale=0.33]{images/State Z Score.png}
 \centerline{\textbf{Figure 5}} \newline\newline
 \justify The Y-axis in \textbf{Figure 5} shows the value of Z Score of the State in which a particular district lies(X-axis). In this scenario also we are getting both positive and negative value of the Z Score. 
 \newline If we consider the district \textbf{Bangalore Urban, Chennai or Pondicherry}, these districts show high value of State Z Score which means that if we consider these districts than the number of cases in this particular district is greater than on average cases in State in which this district lies. This also means than this district contribute large number of cases of COVID-19 to the state in which it lies.
